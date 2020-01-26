@@ -230,7 +230,7 @@ header {
 .main-nav {
     float: right;
     list-style: none;
-    margin-top: 50px;
+    margin-top: 55px;
 }
 
     .main-nav li {
@@ -254,6 +254,20 @@ header {
         .main-nav li a:active {
             border-bottom: 2px solid #e67e22;
         }
+
+/* Mobile navi */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+    .mobile-nav-icon i {
+        font-size: 200%;
+        color: #fff;
+    }
+
 
 /* Sticky navi */
 .sticky {
