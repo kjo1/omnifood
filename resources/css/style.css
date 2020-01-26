@@ -266,23 +266,23 @@ header {
     z-index: 9999;
 }
 
-.sticky .main-nav {
-    margin-top: 18px;
-}
+    .sticky .main-nav {
+        margin-top: 18px;
+    }
 
-.sticky .main-nav li a:link,
-.sticky .main-nav li a:visited {
-    padding: 16px 0;
-    color: #555;
-}
+        .sticky .main-nav li a:link,
+        .sticky .main-nav li a:visited {
+            padding: 16px 0;
+            color: #555;
+        }
 
-.sticky .logo {
-    display: none;
-}
+    .sticky .logo {
+        display: none;
+    }
 
-.sticky .logo-black {
-    display: block;
-}
+    .sticky .logo-black {
+        display: block;
+    }
 /* ------------------------------------------- */
 /* FEATURES */
 /* ------------------------------------------- */
@@ -614,4 +614,27 @@ footer p {
     text-align: center;
     font-size: 90%;
     margin-top: 20px;
+}
+
+
+/* ------------------------------------------- */
+/* ANIMATIONS */
+/* ------------------------------------------- */
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js.--wp-4 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-1 .animated,
+.js--wp-2 .animated,
+.js--wp-3 .animated {
+    opacity: 1;
 }
